@@ -18,7 +18,7 @@ The project is a pokedex created for the web using an API called PokéAPI, using
 ## Git Clone
 
 ```sh
-> git clone https://github.com/cleytonmanoel/Minimal-dex-pokeapi
+> git clone https://github.com/cleytonmanoel/Minimal-dex-pokeapi.git
 ```
 
 ## Objetive
