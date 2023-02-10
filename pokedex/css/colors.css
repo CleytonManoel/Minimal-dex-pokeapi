@@ -1,0 +1,20 @@
+.cor1 {
+    color: rgb(156, 156, 156);
+}
+
+.bg1 {
+    background: rgb(20, 20, 20);
+}
+
+.bg2 {
+    background: rgb(117, 9, 9);
+}
+
+.bg3 {
+    background: rgb(35, 164, 205);
+    background: linear-gradient(180deg, rgba(35, 164, 205, 1) 35%, rgba(9, 121, 11, 1) 60%, rgba(185, 255, 0, 1) 100%);
+}
+
+.bg4 {
+    background: rgb(136, 136, 136);
+}

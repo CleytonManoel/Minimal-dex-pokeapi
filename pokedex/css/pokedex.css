@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pokedex-body {
+  position: relative;
+}
+
+#poke-img {
+  background-size: 30rem 30rem;
+  border: solid 0.2rem rgb(156, 156, 156);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#poke-head {
+  border-bottom: solid 0.2rem rgb(156, 156, 156);
+  border-left: solid 0.2rem rgb(156, 156, 156);
+  border-right: solid 0.2rem rgb(156, 156, 156);
+  position: absolute;
+}
+
+#barra-de-busca {
+  border: solid 0.15rem rgb(0, 0, 0);
+  position: absolute;
+}
+
+#botoes {
+  position: absolute;
+}
+
+#botoes button {
+  border: solid 0.15rem rgb(0, 0, 0);
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+  position: absolute;
+}
+
+#botoes button:hover {
+  background: rgb(88, 88, 88);
+}
+
+#proximo {
+  right: 1%;
+}
+
+#anterior {
+  left: 1%;
+}
+
+#poke-info {
+  border: solid 0.2rem rgb(156, 156, 156);
+  position: absolute;
+}
+
+#poke-info .poke-nick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 0.1rem rgb(156, 156, 156);
+}
+
+#poke-info #status {
+  position: absolute;
+  border-top: solid 0.1rem rgb(156, 156, 156);
+}

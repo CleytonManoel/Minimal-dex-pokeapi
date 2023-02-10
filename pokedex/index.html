@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <link rel="stylesheet" href="css/pokemon.css">
+    <link rel="stylesheet" href="css/responsivemin.css">
+    <link rel="stylesheet" href="css/responsivemax.css">
+    <script defer src="js/pokedex.js"></script>
+    <title>Pokedex</title>
+</head>
+
+<body class="bg1">
+    <main>
+        <div id="pokedex-body" class="bg2">
+            <div id="poke-img" class="bg3">
+                <img src="#">
+            </div>
+            <div id="poke-head" class="cor1 bg1">
+                <div id="poke-number">
+                    <h1>#</h1>
+                    <h1 id="number"></h1>
+                </div>
+                <div class="poke-nick">
+                    <h1></h1>
+                </div>
+            </div>
+            <div id="pokebola-body">
+                <img src="imgs/pokebola.png" alt="">
+            </div>
+            <form id="form">
+                <input type="text" id="barra-de-busca" class="bg4">
+            </form>
+            <div id="botoes">
+                <button id="anterior" class="bg4"><</button>
+                <button id="proximo" class="bg4">></button>
+            </div>
+            <div id="poke-info" class="cor1 bg1">
+                <div class="poke-nick" id="pokemon-nick">
+                    <h1></h1>
+                </div>
+                <div id="type" >
+                    <h2 class="tipo"></h2>
+                    <h2 class="tipo" id="tipos"></h2>
+                </div>
+                <div id="status">
+                    <div class="status" id="vida">
+                        <h1>Hp:</h1>
+                        <h1 class="valor" id="hp"></h1>
+                    </div>
+                    <div class="status" id="ataque">
+                        <h1>Atk:</h1>
+                        <h1 class="valor" id="atk"></h1>
+                    </div>
+                    <div class="status" id="defesa">
+                        <h1>Def:</h1>
+                        <h1 class="valor" id="def"></h1>
+                    </div>
+                    <div class="status" id="sataque">
+                        <h1>Sp.Atk:</h1>
+                        <h1 class="valor" id="satk"></h1>
+                    </div>
+                    <div class="status" id="sdefesa">
+                        <h1>Sp.Def:</h1>
+                        <h1 class="valor" id="sdef"></h1>
+                    </div>
+                    <div class="status" id="velocidade">
+                        <h1>Speed:</h1>
+                        <h1 class="valor" id="spd"></h1>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

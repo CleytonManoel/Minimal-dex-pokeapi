@@ -1,0 +1,83 @@
+@media (max-width: 1250px) {
+  #pokedex-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  #pokebola-body {
+    display: none;
+  }
+  #poke-img {
+    width: 20rem;
+    height: 20rem;
+    top: 10%;
+  }
+  #poke-info {
+    width: 20rem;
+    height: 28rem;
+    top: 25rem;
+  }
+  #poke-info #status {
+    top: 25%;
+    font-size: 0.7rem;
+    border-top: none;
+  }
+  #barra-de-busca {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    top: 3%;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+  }
+  #botoes {
+    width: 100vw;
+    height: 2rem;
+    top: 50%;
+  }
+  #botoes button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .valor {
+    left: 160%;
+  }
+  .status {
+    padding: 0.8rem;
+    display: flex;
+    margin-left: 10%;
+  }
+  #type {
+    top: 2.5rem;
+    width: 100%;
+    height: 3rem;
+    border-bottom: solid 0.1rem rgb(156, 156, 156);
+  }
+  #poke-head {
+    top: 6%;
+    width: 20rem;
+    height: 5%;
+    border-top: solid 0.2rem rgb(156, 156, 156);
+    border-bottom: none;
+  }
+  .poke-nick {
+    width: 100%;
+    height: 3rem;
+  }
+  #poke-number {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 2.5rem;
+    left: 3%;
+  }
+  .poke-nick,
+  #poke-number {
+    font-size: 1rem;
+  }
+}
